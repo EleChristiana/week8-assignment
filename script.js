@@ -41,3 +41,29 @@ function sumBtw(n1,n2){
 
 console.log(sumBtw(1,5));
 console.log(sumBtw(10,15));
+
+function factorial (num1){
+    let sum = 1
+    for(let i = 1; i <= num1; i++){
+       sum *=i;
+    }
+    return sum
+}
+
+console.log(factorial(20));
+
+
+function tempCoverter (){
+    let input = prompt("enter f if fahenrient and c if celcius");
+    if(input == f){
+        let f = 10;
+        return(f-32)*5/9
+    }else{
+        let c = 20;
+        return(c*9/5)+32
+    }
+}
+
+console.log(tempCoverter(10));
+
+tempCoverter(20)
